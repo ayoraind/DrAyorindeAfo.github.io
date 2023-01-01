@@ -5,16 +5,20 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en-US"
-title                    : "Ayorinde_Afolayan / Academic profile"
+title                    : "Dr Ayorinde Afolayan"
 title_separator          : "-"
 name                     : &name "Ayorinde Afolayan"
-description              : &description "I am a post-doctoral scientist at the Molecular Biology laboratory headed by Prof. Iruka Okeke. I perform bioinformatics analyses of sequence data derived from WHO high-priority pathogens."
+description              : &description "I am a post-doctoral scientist at the Microbial Genome Analysis Group (headed by Dr. Sandra Reuter), the Institute for Infection Prevention and Hospital Epidemiology, where I specialize in building pipelines and performing bioinformatics analyses of long read sequence data derived from ESKAPE pathogens."
 url                      : https://DrAyorindeAfo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "bio-photo.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -31,8 +35,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  allowedFields          : ['Ayorinde Afolayan', 'afolayanayorinde@gmail.com', 'url', 'message']
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -81,12 +85,12 @@ analytics:
 # Site Author
 author:
   name             : "Ayorinde Afolayan"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "Ayo.jpeg"
+  bio              : "I am a Pharmaceutical Microbiologist and a post-doctoral scientist who currently specializes in analysing microbial genomes, parsing data of different file formats (data science), and building bioinformatics pipelines."
+  location         : "Freiburg"
   employer         : "Universitätsklinikum Freiburg"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=ayorinde+afolayan"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=zNjhnUgAAAAJ&hl=en"
   email            : "afolayanayorinde@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Ayorinde-Afolayan"
   uri              :
@@ -265,6 +269,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
