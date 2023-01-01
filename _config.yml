@@ -13,13 +13,14 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Dr Ayorinde Afolayan's homepage"
 title_separator          : "-"
-name                     : &name "Ayorinde Afolayan"
-description              : &description "I am a post-doctoral scientist at the Microbial Genome Analysis Group (headed by Dr. Sandra Reuter), the Institute for Infection Prevention and Hospital Epidemiology, where I specialize in building pipelines and performing bioinformatics analyses of long read sequence data derived from ESKAPE pathogens."
-url                      : https://DrAyorindeAfo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ayorinde O. Afolayan"
+description              : &description "Post-doctoral scientist/Bioinformatician/Data Scientist."
+url                      : https://ayoraind.github.io/ayoraind.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "ayoraind/ayoraind.github.io"
 teaser                   : "bio-photo.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
+seo_description          : "Site for Ayorinde Oluwatobiloba Afolayan, Post-doctoral Scientist at the Microbial Genome Analysis Group at the Freiburg University Hospital, Germany"
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -35,8 +36,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['Ayorinde Afolayan', 'afolayanayorinde@gmail.com', 'url', 'message']
-  branch                 : "master" # "master", "gh-pages"
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -66,7 +67,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "images-twitter.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -86,8 +87,8 @@ analytics:
 author:
   name             : "Ayorinde Afolayan"
   avatar           : "Ayo.jpeg"
-  bio              : "I am a Pharmaceutical Microbiologist and a post-doctoral scientist who currently specializes in analysing microbial genomes, parsing data of different file formats (data science), and building bioinformatics pipelines."
-  location         : "Freiburg"
+  bio              : "I am a Pharmaceutical Microbiologist and a Post-doctoral Scientist at the Microbial Genome Analysis Group (headed by Dr. Sandra Reuter), the Institute for Infection Prevention and Hospital Epidemiology, where I specialize in building pipelines and performing bioinformatics analyses of long read sequence data derived from ESKAPE pathogens"
+  location         : "Freiburg, Germany"
   employer         : "Universitätsklinikum Freiburg"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=ayorinde+afolayan"
   googlescholar    : "https://scholar.google.com/citations?user=zNjhnUgAAAAJ&hl=en"
@@ -106,14 +107,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/ayorinde-afolayan-a588a642/"
+  linkedin         : "ayorinde-afolayan-a588a642/"
   orcid            : "https://orcid.org/0000-0003-1405-2365"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/Ayorinde_Afo"
+  twitter          : "Ayorinde_Afo"
   vine             :
   weibo            :
   xing             :
